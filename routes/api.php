@@ -14,3 +14,4 @@ use Illuminate\Http\Request;
 */
 
 Route::post("/rota90","Matriz@rota90");
+Route::post("/rota09","Matriz@rota09");

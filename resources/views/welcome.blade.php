@@ -24,7 +24,8 @@
                             <textarea name="lista" id="lista" cols="30" rows="10"></textarea>
                         </div>
                         <div class="col-md-6">
-                            <a href="#" class="btn btn-primary" onclick="rotar90()">Obtener Resultado</a>
+                            <a href="#" class="btn btn-primary" onclick="rotar90()">Rotar Antihorario</a>
+                            <a href="#" class="btn btn-primary" onclick="rotar09()">Rotar Horario</a>
                             <div id="inicio"></div>
                             <div style="border: 1px solid black"></div>
                             <div id="rotado"></div>

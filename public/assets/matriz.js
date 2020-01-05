@@ -33,7 +33,24 @@ function rotar90() {
 		alertify.error("Matriz Vacia");
 		return ;
 	}
-	$.post(uri+"/rotarmatriz",{input:lista},function (data) {
+	$.post(uri+"/rotarmatriz90",{input:lista},function (data) {
+		if(data.res){
+			$("#lista").val($("#lista").val()+"\n"+JSON.stringify(data.output));
+			$.get(uri+"/vistamatriz",{data:JSON.stringify(data.output)},function(res){
+				$("#rotado").html(res);
+			});
+		}
+		else{
+			$("#rotado").html(data.msg);
+		}
+	});
+}
+function rotar09() {
+	if (lista.length<=1) {
+		alertify.error("Matriz Vacia");
+		return ;
+	}
+	$.post(uri+"/rotarmatriz09",{input:lista},function (data) {
 		if(data.res){
 			$("#lista").val($("#lista").val()+"\n"+JSON.stringify(data.output));
 			$.get(uri+"/vistamatriz",{data:JSON.stringify(data.output)},function(res){

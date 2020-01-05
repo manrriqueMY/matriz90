@@ -11,8 +11,13 @@
 ```
 {dominio}/api/rota90
 ```
+*Antihorario*
 ```
 https://matrizlaravel.herokuapp.com/api/rota90
+```
+*horario*
+```
+https://matrizlaravel.herokuapp.com/api/rota09
 ```
 
 ## Body [JSON]

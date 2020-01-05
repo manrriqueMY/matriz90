@@ -13,5 +13,6 @@
 Route::get('/', function () {
     return view('welcome');
 });
-Route::post("/rotarmatriz","Matriz@rotarmatriz");
+Route::post("/rotarmatriz90","Matriz@rotarmatriz90");
+Route::post("/rotarmatriz09","Matriz@rotarmatriz09");
 Route::get("/vistamatriz","Matriz@vistamatriz");
