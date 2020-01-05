@@ -12,7 +12,40 @@
 {dominio}/api/rota90
 
 ## Body [JSON]
-
+```
 {
 	"input":[[1,2],[3,4]]
 }
+```
+
+```
+{
+	"input":[[1,2,3],[4,5,6],[7,8,9]]
+}
+```
+
+## Resultados
+
+*Satisfactorio*
+```
+{
+    "res": true,
+    "output": [
+        [
+            2,
+            4
+        ],
+        [
+            1,
+            3
+        ]
+    ]
+}
+```
+*error*
+```
+{
+    "res": false,
+    "msg": ""
+}
+```
