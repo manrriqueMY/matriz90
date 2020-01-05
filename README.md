@@ -8,8 +8,9 @@
 </p>
 
 ## API
-
+```
 {dominio}/api/rota90
+```
 
 ## Body [JSON]
 ```
