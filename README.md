@@ -11,6 +11,9 @@
 ```
 {dominio}/api/rota90
 ```
+```
+https://matrizlaravel.herokuapp.com/api/rota90
+```
 
 ## Body [JSON]
 ```

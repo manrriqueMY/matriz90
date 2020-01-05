@@ -39,7 +39,8 @@ class Matriz extends Controller {
     }
     public function rotarmatriz(Request $req) {
     	try {
-    		$response = Curl::to('http://localhost:8000/api/rota90')
+    		//$response = Curl::to('http://localhost:8000/api/rota90')
+            $response = Curl::to('https://matrizlaravel.herokuapp.com/api/rota90')            
 			->withData(array('input' => $req->input))
 		    ->asJson(true)
 	    	->post();
